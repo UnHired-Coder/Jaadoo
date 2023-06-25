@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:PortFolio/widgets/CustomWidgetSignal.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Block1 extends StatefulWidget {

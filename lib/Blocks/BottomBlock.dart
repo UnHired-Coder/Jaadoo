@@ -1,5 +1,4 @@
 import 'dart:collection';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
@@ -111,7 +110,7 @@ class _BottomBlockState extends State<BottomBlock>
                   maintainState: false,
                   visible: audioStarted,
                   child: Center(
-                    child: _videoController.value.initialized
+                    child: _videoController.value.isInitialized
                         ? AspectRatio(
                             aspectRatio: 1.0,
                             child: VideoPlayer(_videoController),
